@@ -12,6 +12,6 @@ gsap.to(".profile-img-bg", {
     height: "100%",  // Animate height to 100%
     // clipPath: "none",  // Remove clipping at the end
     ease: "none",
-    left: 0,
+    left:0,
     scale: 1.5, 
 });
