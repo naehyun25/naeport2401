@@ -1,52 +1,27 @@
 .nae-history-section{
     width: 100%;
-    height: 100vh;
-    background-color: black;
+    height: 100%;
+}
+
+.nae-history-section .nae-history-inner{
+    width: 100%;
+    height: 100%;
+    padding-top: 12.5em;
     position: relative;
 }
-.logo-test{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+.nae-history-section .history-title-wrap{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: var(--contrast-pink-color);
+    font-size: 80px;
+    border-bottom: 1px solid var(--contrast-pink-color);
 }
 
-.logo-test path:nth-child(1){
-    stroke-dasharray: 553;
-    stroke-dashoffset: 553;
-    animation: line-animation 2s ease forwards infinite;
-}
-.logo-test path:nth-child(2){
-    stroke-dasharray: 498;
-    stroke-dashoffset: 498;
-    animation: line-animation 2s ease forwards infinite;
-    
-}.logo-test path:nth-child(3){
-    stroke-dasharray: 424;
-    stroke-dashoffset: 424;
-    animation: line-animation 2s ease forwards infinite;
-}.logo-test path:nth-child(4){
-    stroke-dasharray: 634;
-    stroke-dashoffset: 634;
-    animation: line-animation 2s ease forwards infinite;
-}.logo-test path:nth-child(5){
-    stroke-dasharray: 561;
-    stroke-dashoffset: 561;
-    animation: line-animation 2s ease forwards infinite;
-}.logo-test path:nth-child(6){
-    stroke-dasharray: 561;
-    stroke-dashoffset: 561;
-    animation: line-animation 2s ease forwards infinite;
-}.logo-test path:nth-child(7){
-    stroke-dasharray: 438;
-    stroke-dashoffset: 438;
-    animation: line-animation 2s ease forwards infinite;
+.nae-history-section .first-title-text{
+    padding-right: 50px;
 }
 
-@keyframes line-animation {
-    from{fill: transparent;}
-    to{stroke-dashoffset: 0;
-    fill: white;
-    }
-    
-}

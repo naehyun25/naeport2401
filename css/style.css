@@ -14,21 +14,4 @@ body {
 
 }
 
-/* 반응형 미디어 쿼리 */
-@media (max-width: 768px) {
-    body {
-        background-color: var(--primary-color); /* 모바일에서 배경색 변경 */
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        background-color: var(--secondary-color); /* 태블릿에서 배경색 변경 */
-    }
-}
-
-@media (min-width: 1025px) {
-    body {
-        background-color: #fff; /* 데스크탑에서 배경색 기본값 */
-    }
-}
+/* 반응형 미디어 쿼리 *
