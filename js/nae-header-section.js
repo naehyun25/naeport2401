@@ -11,3 +11,16 @@ window.addEventListener("scroll", function() {
    lastScrollTop = scrollTop; // 위치 업데이트
 });
 
+
+
+// 마우스 팔로잉 동그라미
+const circle = document.querySelector('.circle');
+
+ document.addEventListener('mousemove', function(e) {
+    const x = e.clientX;
+    const y = e.clientY;
+    circle.style.left = x+"px";
+    circle.style.top = y+"px";
+});
+
+

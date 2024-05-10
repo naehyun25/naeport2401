@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- 프리텐다드 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <!-- fugaz one -->
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <!-- 스와이퍼 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -24,23 +26,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/ScrollToPlugin.min.js"></script>
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <!-- 폰트어썸 -->
     <script src="https://kit.fontawesome.com/08c48d2b1e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <!-- 1. 인트로 Section -->
     <section class="nae-intro-section">
         <div class="intro-section-inner">
             
             <div class="left-title-wrap">
-                <div class="left-text-title">Yoon Nae Hyeon</div>
+                <div class="left-text-title en">Yoon Nae Hyeon</div>
             </div>
            
             <div class="right-title-wrap">
-                <div class="right-text-title">PortFolio</div>
+                <div class="right-text-title en">PortFolio</div>
             </div>
 
             <div class="intro-end-cover">
@@ -52,6 +53,7 @@
 
     <!-- 2. 헤더 Section -->
     <header class="nae-header-section">
+        <div class="circle"></div>
         <div class ="nae-header-inner">
             <a href="#" class="logo-wrapper"><img src="./assets/images/nae-header-section/logo.png" alt="logo" class="logo-img"></a>
 
@@ -97,12 +99,39 @@
         <div class="nae-history-inner">
             <div class="history-title-wrap">
 
-                <div class="first-title-text" >About</div>
-                <div class="second-title-text" >Me</div>
+                <div class="first-title-text en" >About</div>
+                <div class="second-title-text en" >Me</div>
     
             </div>
     
-            <div class="test">dijafelfj</div>
+            <div class="history-content-wrap">
+                <section class="scroll-section">
+                    <h1>Section 1</h1>
+                    <p>Welcome to section 1.</p>
+                </section>
+                <section class="scroll-section">
+                    <h1>Section 2</h1>
+                    <p>Welcome to section 2.</p>
+                </section>
+                <section class="scroll-section">
+                    <h1>Section 3</h1>
+                    <p>Welcome to section 3.</p>
+                </section>
+                <section class="scroll-section">
+                    <h1>Section 4</h1>
+                    <p>Welcome to section 4.</p>
+                </section>
+                <section class="scroll-section">
+                    <h1>Section 5</h1>
+                    <p>Welcome to section 5.</p>
+                </section>
+                
+                    <!-- <div class="history-box">성장</div>
+                    <div class="education-box">교육</div>
+                    <div class="currier-box">커리어</div>
+     -->
+                
+            </div>
         </div>
  
         
@@ -117,6 +146,8 @@
         AOS.init();
     </script>
     <script src="./js/scroll-smooth.js"></script>
+    <!-- nae-intro-section -->
+    <script src="./js/nae-intro-section.js"></script>
     <!-- nae-header-section -->
     <script src="./js/nae-header-section.js"></script>
     <!-- nae-main-section -->

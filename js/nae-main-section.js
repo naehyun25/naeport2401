@@ -34,24 +34,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// script.js
-const handle = document.querySelector('.handle');
-handle.addEventListener('dragstart', startMachine);
-
-function startMachine() {
-    // 슬롯 머신을 "회전"하는 애니메이션 로직을 실행
-    console.log('슬롯 머신 작동 시작');
-
-    setTimeout(() => {
-        stopMachine();
-    }, 2000); // 2초 후에 슬롯 머신 멈춤
-}
-
-function stopMachine() {
-    // 슬롯 머신을 멈추고 결과를 표시
-    console.log('슬롯 머신 작동 종료');
-
-    // 결과 이미지 설정 (예시)
-    document.getElementById('slot1').style.backgroundImage = 'url("your-image.jpg")';
-    // 이 부분에 당첨된 UI 표시 로직 추가
-}
